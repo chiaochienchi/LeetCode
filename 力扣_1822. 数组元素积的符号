@@ -1,3 +1,4 @@
+
 已知函数 signFunc(x) 将会根据 x 的正负返回特定值：
 
 如果 x 是正数，返回 1 。
@@ -10,7 +11,7 @@
 来源：力扣（LeetCode）
 链接：https://leetcode-cn.com/problems/sign-of-the-product-of-an-array
 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
-
+```外壳
 class Solution(object):
     def arraySign(self, nums):
         """
@@ -27,3 +28,4 @@ class Solution(object):
                 return -1
             else: return 0
         return signFunc(product)
+```
